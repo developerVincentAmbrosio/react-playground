@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-//import Demonym from './Demonym';
-import DemonymApp from './DemonymApp/DemonymApp';
+import RegistrationForm from './RegistrationForm/RegistrationForm'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <DemonymApp />
+        <RegistrationForm />
       </div>  
     )
   }
